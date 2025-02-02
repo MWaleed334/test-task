@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@496&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Playfair Display", serif !important;
+    background: linear-gradient(to right, #283606, #0F1500) !important;
+    color: #ffffff;
+    font-style: normal;
+    font-optical-sizing: auto;
+    width: auto;
+    overflow-x: hidden;
+}
+.container {
+    width: 100vw;
+    max-width: 100%; 
+    padding: 0 16px; 
+}
